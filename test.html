@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9">
+<title>Canvas gauge</title> 
+ <script language="javascript" type="text/javascript" src="js/gauge.min.js"></script>
+</head>
+<body>
+<canvas data-type="linear-gauge"
+    data-width="200"
+    data-height="100"
+    data-min-value="0"
+    data-max-value="100"
+    data-major-ticks="0,20,40,60,80,100"
+    data-minor-ticks="10"
+    data-stroke-ticks="true"
+    data-color-plate="#fff"
+    data-border-shadow-width="0"
+    data-borders="false"
+    data-bar-begin-circle="false"
+    data-tick-side="left"
+    data-number-side="left"
+    data-needle-side="left"
+    data-needle-type="line"
+    data-needle-width="3"
+    data-color-needle="#222"
+    data-color-needle-end="#222"
+    data-animation-duration="1500"
+    data-animation-rule="linear"
+    data-animation-target="plate"
+    data-bar-width="5"
+    data-ticks-width="35"
+    data-ticks-width-minor="8"
+    data-title="150.0"
+></canvas>
+<script>
+var gaugeElement = document.getElementsByTagName('canvas')[0];
+</script>
+</body>
+</html>
